@@ -1,0 +1,21 @@
+.recipe-carousel {
+    width: 80vw;
+    padding-bottom: 24px;
+}
+
+.carousel-title {
+    font-family: 'Bely';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 58px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 12px;
+    gap: 10px;
+    overflow: scroll;
+}

@@ -1,0 +1,45 @@
+.header {
+    height: 60px;
+    width: 100vw;
+    background-color: #282828;
+    text-align: left;
+  }
+
+  .logotype {
+    vertical-align: middle;
+    float: left;
+    font-family: bely-display, sans-serif;
+    padding: 0px 12px 0px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    color: #CB9D92;
+  }
+
+  .spacer {
+    overflow: hidden;
+  }
+
+  .header-nav-right-wrapper {
+    padding: 0px 24px 0px 32px;
+    float: right;
+  }
+
+  .header-nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+  }
+
+  .header-nav-right p {
+    
+    font-family: depot-new-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+  }

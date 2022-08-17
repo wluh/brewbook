@@ -1,0 +1,71 @@
+.recipe-specs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 36px;
+
+    font-family: depot-new-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    padding: 0px 12px 12px 12px;
+}
+
+.recipe-title {
+    width: 400px;
+    height: 48px;
+    left: 0px;
+    top: 10px;
+
+    background: #6D3629;
+    border: 2px solid #000000;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.recipe-body {
+    width: 400px;
+    height: 164px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    border-bottom-left-radius: 2px solid #000000;
+    border-bottom-right-radius: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.recipe-title-text {
+    padding: 0px 12px 0px 12px;
+    color:#FFFFFF;
+}
+
+.title {
+    font-family: 'Bely';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.subtitle {
+    font-family: 'Bely';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.recipe-content {
+    height: 106px;
+    padding: 12px;
+}
+
+.recipe-instructions {
+    font-family: 'Bely';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
